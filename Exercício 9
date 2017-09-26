@@ -1,5 +1,5 @@
 /*Crie um programa por meio do qual o usuário irá digitar a operação desejada e dois valores, ao final deverá ser exibido o resultado da operação. 
-Opções disponíveis: 1 – Divisão; 2 – resto da divisão; 3 – adição; 4 – multiplicação.
+Opções disponíveis: 1 – Divisão; 2 – subtração; 3 – adição; 4 – multiplicação.
 Obs: Utilizar: do-while (para o menu) e o comando switch.*/
 
 #include <stdio.h>
