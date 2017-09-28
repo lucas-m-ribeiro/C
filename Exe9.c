@@ -1,12 +1,13 @@
-/*Crie um programa por meio do qual o usuário irá digitar a operação desejada e dois valores, ao final deverá ser exibido o resultado da operação. 
+/*Crie um programa por meio do qual o usuário irá digitar a operação desejada e dois valores, ao final deverá ser exibido o resultado da operação.
 Opções disponíveis: 1 – Divisão; 2 – subtração; 3 – adição; 4 – multiplicação.
-Obs: Utilizar:  do-while (para o menu) e o comando switch.       
+Obs: Utilizar:  do-while (para o menu) e o comando switch.
 */
 
 #include <stdio.h>
 int main(){
 
     printf("Entre com a operação desejada!\n\n");
+    printf("\nDigite 0 para sair do programa!\n");
     printf("\n Digite 1 para somar!\n");
     printf("\n Digite 2 para subtrair!\n");
     printf("\n Digite 3 para multiplicar!\n");
@@ -16,8 +17,7 @@ int main(){
 
     printf("\n\nEntre com um dos numeros de acordo com a operação desejada: \n");
     scanf("%d", &entrada);
-
-
+    
     do{
 
     switch (entrada){
@@ -55,5 +55,4 @@ int main(){
         }
     }
 }  while (entrada != 0);
-
 }
