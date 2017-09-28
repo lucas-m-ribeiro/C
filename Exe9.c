@@ -1,12 +1,12 @@
-/*Crie um programa por meio do qual o usuário irá digitar a operação desejada e dois valores, ao final deverá ser exibido o resultado da operação. 
-Opções disponíveis: 1 – Divisão; 2 – resto da divisão; 3 – adição; 4 – multiplicação.
+/*Crie um programa por meio do qual o usuÃ¡rio irÃ¡ digitar a operaÃ§Ã£o desejada e dois valores, ao final deverÃ¡ ser exibido o resultado da operaÃ§Ã£o. 
+OpÃ§Ãµes disponÃ­veis: 1 â€“ DivisÃ£o; 2 â€“ subtraÃ§Ã£o; 3 â€“ adiÃ§Ã£o; 4 â€“ multiplicaÃ§Ã£o.
 Obs: Utilizar:  do-while (para o menu) e o comando switch.       
 */
 
 #include <stdio.h>
 int main(){
 
-    printf("Entre com a operação desejada!\n\n");
+    printf("Entre com a operaÃ§Ã£o desejada!\n\n");
     printf("\n Digite 1 para somar!\n");
     printf("\n Digite 2 para subtrair!\n");
     printf("\n Digite 3 para multiplicar!\n");
@@ -14,7 +14,7 @@ int main(){
 
     int entrada, numero1, numero2;
 
-    printf("\n\nEntre com um dos numeros de acordo com a operação desejada: \n");
+    printf("\n\nEntre com um dos numeros de acordo com a operaÃ§Ã£o desejada: \n");
     scanf("%d", &entrada);
 
 
@@ -32,14 +32,14 @@ int main(){
         case 2:{
             printf("\nEntre com dois valores para se subtrair: \n");
             scanf("%d %d", &numero1, &numero2);
-            printf("\nO valor da subtração e igual a: %d\n", numero1 - numero2);
+            printf("\nO valor da subtraÃ§Ã£o e igual a: %d\n", numero1 - numero2);
             break;
         }
 
         case 3:{
             printf("\nEntre com dois valores para multiplicar: \n");
             scanf("%d %d", &numero1, &numero2);
-            printf("\no valor da multiplicação e igual a: %d\n", numero1 * numero2);
+            printf("\no valor da multiplicaÃ§Ã£o e igual a: %d\n", numero1 * numero2);
             break;
         }
 
