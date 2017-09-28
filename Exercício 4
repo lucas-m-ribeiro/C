@@ -8,7 +8,7 @@ int main(){
     scanf("%d", &ano);
    
    printf("Digite o ano atual: ");
-    scanff("%d",&atual);
+    scanf("%d",&atual);
     
     idade = atual - ano;
     printf("\nA sua idade e: %d\n", idade);
