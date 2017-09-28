@@ -2,10 +2,15 @@
 
 #include <stdio.h>
 int main(){
-    int ano, idade;
+   
+   int ano, idade, atual;
     printf("Digite o ano que voce nasceu: ");
     scanf("%d", &ano);
-    idade = 2017 - ano;
+   
+   printf("Digite o ano atual: ");
+    scanff("%d",&atual);
+    
+    idade = atual - ano;
     printf("\nA sua idade e: %d\n", idade);
 
 return 0;
