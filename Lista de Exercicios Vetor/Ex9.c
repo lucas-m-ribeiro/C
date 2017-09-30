@@ -1,4 +1,4 @@
-/*Leia um vetor de 10 posições e armazene nele apenas numeros pares */
+/*Leia um vetor de 10 posiÃ§Ãµes e imprima apenas numeros pares do vetor */
 
 #include<stdio.h>
 int main(){
